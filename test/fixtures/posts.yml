@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tiltle: MyString
+  content: MyString
+
+two:
+  tiltle: MyString
+  content: MyString

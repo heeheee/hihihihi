@@ -1,0 +1,11 @@
+<div class ="container">
+    
+    <!--로그인 유지 : <%#= currunt_user.email %><hr>-->
+    <% @posts.each do |o| %>
+       <p>글쓴이 : </p> <%#= o.user.email %>
+       <p><a href="/home/read/<%=o.id%>">제목 : <%=o.title%></a></p>
+    <% end %>
+     <a href="/home/create">새 글쓰기</a><br>
+     <!--<a href="/users/sign_out">로그아웃</a>-->
+</div>
+     
